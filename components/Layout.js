@@ -1,10 +1,10 @@
 import Nav from "./Nav";
 
-export default function Nav({ children }) {
+export default function Layout({ children }) {
   return (
-    <>
+    <div>
       <Nav></Nav>
       <main>{children}</main>
-    </>
+    </div>
   );
 }

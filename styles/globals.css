@@ -1,0 +1,14 @@
+@tailwind components;
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@layer components {
+    .btn-wildling-one {
+        @apply bg-brandcolor p-3 w-48 text-white shadow-lg rounded-none drop-shadow-lg;
+    }
+
+    .btn-wildling-two {
+        @apply text-brandcolor p-3 w-48 border-2 border-brandcolor rounded-none;
+    }
+}
