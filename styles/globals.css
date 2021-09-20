@@ -5,10 +5,10 @@
 
 @layer components {
     .btn-wildling-one {
-        @apply bg-brandcolor p-3 w-48 text-white shadow-lg rounded-none drop-shadow-lg;
+        @apply bg-brandcolor p-3 w-full md:w-48 text-white shadow-lg rounded-none drop-shadow-lg;
     }
 
     .btn-wildling-two {
-        @apply text-brandcolor p-3 w-48 border-2 border-brandcolor rounded-none;
+        @apply text-brandcolor p-3 w-full md:w-48 border-2 border-brandcolor rounded-none;
     }
 }

@@ -3,20 +3,18 @@ import wildlingProductOne from "../../public/images/wildling-product-image-3.jpg
 
 export default function ProductOverlap({}) {
   return (
-    <div className="p-20 h-screen mt-16">
-      <div className="grid grid-cols-2 h-full gap-20">
-        <div className="relative w-full">
-          <div className="bg-red-200 overflow-auto w-full h-full"></div>
-          <div className="absolute top-0 right-0 transform translate-x-8 -translate-y-24 w-full h-5/6">
+    <div className="p-3 md:p-20 h-full mt-16 mb-16">
+      <div className="grid grid-cols-2 h-full gap-10 md:gap-20">
+        <div className="relative mb-96 col-span-2 md:col-span-1">
+          <div className="bg-red-200 overflow-auto w-full h-full invisible md:visible"></div>
+          <div className="absolute top-0 right-0 md:transform md:translate-x-8 md:-translate-y-24 w-full h-5/6">
             <Image
               src={wildlingProductOne}
               alt="wildling-product-image"
-              className="w-full h-full"
             ></Image>
           </div>
-          {/* <div className="absolute top-0 right-0 transform translate-x-4 -translate-y-8 bg-red-500 w-16 h-16"></div> */}
         </div>
-        <div className="w-full">
+        <div className="col-span-2 md:col-span-1 mt-24">
           <div className="text-4xl font-custom text-brandcolor">
             We provide you <br />
             the best taste

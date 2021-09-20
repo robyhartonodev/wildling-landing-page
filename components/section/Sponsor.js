@@ -12,12 +12,12 @@ export default function Sponsor({}) {
       <div className="text-lg text-center my-12 text-brandcolor font-bold font-custom">
         SOME OF OUR LENDERS
       </div>
-      <div className="flex flex-row justify-between space-x-3 p-5 items-center">
+      <div className="grid grid-cols-6 justify-between gap-10 p-5 items-center">
         <Image
           src={chaseLogo}
           alt="chase company logo"
           width={125}
-          height={25}
+          height={40}
         ></Image>
         <Image
           src={asanaLogo}

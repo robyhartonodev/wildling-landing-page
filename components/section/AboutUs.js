@@ -4,9 +4,9 @@ import wildlingProductTwo from "../../public/images/wildling-product-image-12.jp
 
 export default function AboutUs({}) {
   return (
-    <div className="h-screen mt-12 p-20 mb-8">
-      <div className="grid grid-cols-2 grid-flow-col justify-center gap-20 h-full">
-        <div className="">
+    <div className="h-full mt-12 p-20">
+      <div className="grid grid-cols-2 justify-center gap-10 md:gap-20 h-full">
+        <div className="col-span-2 md:col-span-1">
           <div className="font-custom text-brandcolor text-6xl mb-8">
             about us
           </div>
@@ -23,7 +23,8 @@ export default function AboutUs({}) {
             alt="wildling product two"
           ></Image>
         </div>
-        <div className="">
+
+        <div className="col-span-2 md:col-span-1">
           <Image
             src={wildlingProductOne}
             className="w-full h-full"
