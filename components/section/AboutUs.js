@@ -4,7 +4,7 @@ import wildlingProductTwo from "../../public/images/wildling-product-image-12.jp
 
 export default function AboutUs({}) {
   return (
-    <div className="h-full mt-12 p-20">
+    <div className="h-full mt-12 p-5 md:p-20">
       <div className="grid grid-cols-2 justify-center gap-10 md:gap-20 h-full">
         <div className="col-span-2 md:col-span-1">
           <div className="font-custom text-brandcolor text-6xl mb-8">

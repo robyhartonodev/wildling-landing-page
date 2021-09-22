@@ -7,48 +7,32 @@ import togglLogo from "../../public/images/toggl-logo.svg";
 import walmartLogo from "../../public/images/walmart-logo.svg";
 
 export default function Sponsor({}) {
+  const images = [
+    { src: chaseLogo, alt: "chase company logo" },
+    { src: asanaLogo, alt: "chase company logo" },
+    { src: googleLogo, alt: "chase company logo" },
+    { src: buzzFeedLogo, alt: "chase company logo" },
+    { src: togglLogo, alt: "chase company logo" },
+    { src: walmartLogo, alt: "chase company logo" },
+  ];
+
+  let divImageArray = [];
+
+  images.forEach((item, index) => {
+    divImageArray.push(
+      <div className="col-span-2 md:col-span-1" key={index}>
+        <Image src={item.src} alt={item.alt} className="h-full"></Image>
+      </div>
+    );
+  });
+
   return (
-    <div className="flex flex-col h-72 bg-red-50">
+    <div className="grid grid-cols-1 h-full bg-red-50">
       <div className="text-lg text-center my-12 text-brandcolor font-bold font-custom">
         SOME OF OUR LENDERS
       </div>
-      <div className="grid grid-cols-6 justify-between gap-10 p-5 items-center">
-        <Image
-          src={chaseLogo}
-          alt="chase company logo"
-          width={125}
-          height={40}
-        ></Image>
-        <Image
-          src={asanaLogo}
-          alt="asana company logo"
-          width={125}
-          height={50}
-        ></Image>
-        <Image
-          src={googleLogo}
-          alt="google company logo"
-          width={125}
-          height={50}
-        ></Image>
-        <Image
-          src={buzzFeedLogo}
-          alt="buzzfeed company logo"
-          width={125}
-          height={25}
-        ></Image>
-        <Image
-          src={togglLogo}
-          alt="toggl company logo"
-          width={125}
-          height={100}
-        ></Image>
-        <Image
-          src={walmartLogo}
-          alt="walmart company logo"
-          width={125}
-          height={100}
-        ></Image>
+      <div className="grid grid-cols-6 gap-20 px-3 items-center">
+        { divImageArray }
       </div>
     </div>
   );
