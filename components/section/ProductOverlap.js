@@ -11,10 +11,11 @@ export default function ProductOverlap({}) {
             <Image
               src={wildlingProductOne}
               alt="wildling-product-image"
+              className="transition duration-300 ease-in-out transform hover:scale-110"
             ></Image>
           </div>
         </div>
-        <div className="col-span-2 md:col-span-1 mt-0 md:mt-24">
+        <div className="col-span-2 md:col-span-1 mt-16 md:mt-24">
           <div className="text-4xl font-custom text-brandcolor">
             We provide you <br />
             the best taste

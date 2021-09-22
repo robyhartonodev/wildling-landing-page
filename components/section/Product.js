@@ -18,7 +18,7 @@ export default function Product({}) {
         <div className="col-span-2 md:col-span-1">
           <Image
             src={wildlingProductOne}
-            className="w-full"
+            className="w-full transition duration-300 ease-in-out transform hover:-translate-y-5 hover:scale-120"
             height={1200}
             alt="wildling product one"
           ></Image>
@@ -69,7 +69,7 @@ export default function Product({}) {
         <div className="h-full col-span-2 md:col-span-1">
           <Image
             src={wildlingProductTwo}
-            className="w-full"
+            className="w-full transition duration-300 ease-in-out transform hover:translate-y-5 hover:scale-120"
             height={1200}
             alt="wildling product one"
           ></Image>

@@ -19,7 +19,7 @@ export default function AboutUs({}) {
           </button>
           <Image
             src={wildlingProductTwo}
-            className="w-full h-full"
+            className="w-full h-full transition duration-300 ease-in-out transform hover:-translate-y-5 hover:scale-120"
             alt="wildling product two"
           ></Image>
         </div>
@@ -27,7 +27,7 @@ export default function AboutUs({}) {
         <div className="col-span-2 md:col-span-1">
           <Image
             src={wildlingProductOne}
-            className="w-full h-full"
+            className="w-full h-full transition duration-300 ease-in-out transform hover:translate-y-5 hover:scale-120"
             alt="wildling product one"
           ></Image>
           <p className="text-left mt-8 mb-8 font-custom w-full">
