@@ -5,6 +5,7 @@ import Number from "../components/section/Number";
 import Product from "../components/section/Product";
 import ProductOverlap from "../components/section/ProductOverlap";
 import Sponsor from "../components/section/Sponsor";
+import Testimony from "../components/section/Testimony";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Product></Product>
       <Number></Number>
       <ProductOverlap></ProductOverlap>
+      <Testimony></Testimony>
 
       <Footer></Footer>
     </div>
