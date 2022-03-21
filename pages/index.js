@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
 import AboutUs from "../components/section/AboutUs";
 import Number from "../components/section/Number";
 import Product from "../components/section/Product";
@@ -21,8 +20,6 @@ export default function Home() {
       <Number></Number>
       <ProductOverlap></ProductOverlap>
       <Testimony></Testimony>
-
-      <Footer></Footer>
     </div>
   );
 }

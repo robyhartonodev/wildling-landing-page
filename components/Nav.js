@@ -39,13 +39,13 @@ export default function Nav({}) {
       </div>
 
       {/* Title */}
-      <div className="grid grid-cols-1 justify-items-center mt-4 md:mt-16">
+      <div className="flex justify-center mt-4 px-3 md:px-0 md:mt-16">
         <div className="text-4xl md:text-7xl text-brandcolor font-bold">
           Protecting the beauty!
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-6 px-20 py-12 text-brandcolor">
+      <div className="grid grid-cols-3 gap-6 px-5 md:px-20 py-12 text-brandcolor">
         <div className="col-span-3 md:col-span-1">
           <div className="font-custom mb-4">
             It increases circulation and improves lymphatic function, resulting

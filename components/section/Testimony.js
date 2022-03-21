@@ -34,9 +34,7 @@ export default function Testimony({}) {
           <Image
             src={item.src}
             alt="testimony-one"
-            width={160}
-            height={160}
-            className="rounded-full flex items-center justify-center"
+            className="rounded-md flex items-center justify-center w-full h-full"
           ></Image>
         </div>
         <div className="text-center">
